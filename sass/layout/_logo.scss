@@ -1,0 +1,24 @@
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    margin-right: 92px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-accent {
+    color: var(--accent-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-accent:hover {
+    color: var(--accent-hover-color);
+}
+
+.logo-black-color {
+    color: #000000;
+}
