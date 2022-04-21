@@ -134,6 +134,12 @@
     transition: border-color 250ms linear;
     cursor: pointer;
     color: var(--main-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
 }
 
 .contact-form-message:focus {
