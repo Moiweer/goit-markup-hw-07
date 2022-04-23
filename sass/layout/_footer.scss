@@ -19,6 +19,12 @@
     font-style: normal;
     min-width: 230px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover {
+        color: var(--accent-hover-color);
+    }
+   &:focus {
+        color: var(--accent-hover-color);
+    }
 }
 
 .address-link {
@@ -34,6 +40,12 @@
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 8px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--accent-hover-color);
+    }
+    &:focus {
+        color: var(--accent-hover-color);
+    }
 }
 
 .footer-contact-mail-link {
@@ -45,6 +57,10 @@
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 8px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+        color: var(--accent-hover-color);
+    }
 }
 
 .phone-number {
@@ -53,13 +69,16 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 8px;
-}
-
-.phone-number {
     margin-bottom: 0px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--accent-hover-color);
+    }
+    &:focus {
+        color: var(--accent-hover-color);
+    }
 }
+
 
 .address-list {
     display: block;
@@ -89,34 +108,6 @@ a.logo.link {
     color: var(--white-text-color);
 }
 
-.address:hover {
-    color: var(--accent-hover-color);
-}
-
-.mail:hover {
-    color: var(--accent-hover-color);
-}
-
-.phone-number:hover {
-    color: var(--accent-hover-color);
-}
-
-.address:focus {
-    color: var(--accent-hover-color);
-}
-
-.footer-contact-mail-link:hover,
-.footer-contact-mail-link:focus {
-    color: var(--accent-hover-color);
-}
-
-.mail:focus {
-    color: var(--accent-hover-color);
-}
-
-.phone-number:focus {
-    color: var(--accent-hover-color);
-}
 
 .footer-social {
     margin-left: 70px;
@@ -143,6 +134,11 @@ a.logo.link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    
+        background-color: var(--accent-hover-color)
+    }
 
 }
 
@@ -152,13 +148,6 @@ a.logo.link {
 
 .footer-social-icon-link {
     fill: currentColor;
-}
-
-
-.footer-social-icon-link:hover,
-.footer-social-icon-link:focus {
-
-    background-color: var(--accent-hover-color)
 }
 
 // FOOTER  CONTACT FORM 
@@ -220,12 +209,11 @@ a.logo.link {
     margin-left: auto;
     margin-right: auto;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-btn-submit:hover,
-.footer-btn-submit:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: var(--accent-hover-color);
+    &:hover,
+    &:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        background-color: var(--accent-hover-color);
+    }
 }
 
 .footer-btn-icon {

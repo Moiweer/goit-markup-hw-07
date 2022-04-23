@@ -19,10 +19,10 @@
 
 .social-icon {
   fill: currentColor;
-}
-
-.social-icon-link:hover,
-.social-icon-link:focus {
+&:hover,
+&:focus {
   color: var(--white-text-color);
   background-color: var(--accent-hover-color);
+}
+
 }
